@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:wght@100;500&display=swap');
+
+
+html {
+    /*COR DOS ELEMENTOS*/
+    color: white;
+    /*RESET CSS*/
+    margin: 0px;
+    padding: 0px;
+}
+
+span{
+    background-color: #a76f1dc5;
+    padding: 1px;
+}
+
+#titulo {
+    /*COR DA FONTE*/
+    color: white;
+    /*ALINHAMENTO DO TEXTO*/
+    text-align: center;
+    /*FAMILIA TIPOGRAFICA*/
+    font-family: 'PT Sans', sans-serif;
+    /*TAMANHO DA FONTE*/
+    font-size: 35px;
+    /*ESTILO DA FONTE*/
+    font-style: oblique;
+    /* ESPESSURA DA FONTE */
+    font-weight: 200;
+    /* COR DE FUNDO DO TÍTULO */
+    background-color: rgb(37, 150, 190);
+    /* ESPAÇAMENTO */
+    padding: 10px;
+    border: solid 5px;
+    border-radius: 30px;
+}
+
+#resumo {
+    /* TAMANHO */
+    padding: 20px;
+    /* ALINHAMENTO DO TEXTO */
+    text-align: center;
+    /* FAMÍLIA TIPOGRÁFICA */
+    font-family: 'PT Sans', sans-serif;
+    /* TAMANHO DA FONTE */
+    font-size: 25px;
+    /* ESTILO DA FONTE */
+    font-style: oblique;
+
+}
+
+ul {
+    /* ALINHAMENTO */
+    text-align: center;
+    /* FAMILIA TIPOGRÁFICA */
+    font-family: 'Raleway', sans-serif;
+    /* TAMANHO DA FONTE */
+    font-size: 25px;
+    /* ESTILO DA FONTE */
+    font-style: normal;
+    /* MARGEM */
+    margin: 20px 0px;
+    /*RETIRAR MARCADOR*/
+    list-style: none;
+    padding: 25px;
+    border: solid 5px;
+    border-radius: 30px;
+    background-color:  rgb(37, 150, 190);
+}
+
+#corpo {
+    background-image: url("../Checkpoint_I/Imagens/background_osasco.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#principal {
+    text-align: center;
+    background-color: rgb(37, 150, 190, 0.2);
+    padding: 10px;
+}
+
+
+.subtitulo {
+    /* COR DA FONTE */
+    color: white;
+    /* ALINHAMENTO CENTRALIZADO DO TEXTO */
+    text-align: center;
+    /* FAMÍLIA TIPOGRÁFICA */
+    font-family: 'PT Sans', sans-serif;
+    /* TAMANHO DA FONTE */
+    font-size: 35px;
+    /* ESTILO DA FONTE */
+    font-style: oblique;
+    /* ESPESSURA DA FONTE */
+    font-weight: 200;
+    /* ESPAÇAMENTO */
+    padding: 1px;
+}
+
+#rodape{
+text-align: center;
+padding: 10px;
+background-color: rgb(37, 150, 190, 0.2);
+font-family: 'PT Sans', sans-serif;
+font-style: normal;
+
+}
+
+.icones {
+margin: 20px;
+width: 70px;
+height: 70px;
+}
